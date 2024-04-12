@@ -1,0 +1,63 @@
+@media (max-width:900px) {
+
+    #navbar a{
+        font-size: 12px;
+        /* width: 50px; */
+    }
+    #introhead {
+        margin-top: 50px;
+    }
+
+    #introsubhead {
+        margin-top: 30px;
+    }
+
+    #introhead {
+        margin-top: 40px;
+    }
+
+    #prjtaboutspan {
+        width: 95%;
+    }
+
+    #projectboxes {
+        width: 340px;
+    }
+
+    #projectbox {
+        width: 320px;
+    }
+
+
+    .skills {
+        flex-direction: column;
+    }
+
+    #skillsabout {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #skillaboutdescription{
+        margin-bottom:30px ;
+    }
+    #skillspannel{
+        width: 90%;
+    }
+    #skillboxcontainer {
+        width: 60%;
+        height: 100%;
+        flex-direction: column;
+        /* background-color: aqua; */
+        align-items: center;
+    }
+
+    #skillboxesa {
+        justify-content: start;
+        align-items: start;
+    }
+
+    #skillboxesb {
+        justify-content: start;
+        align-items: end;
+    }
+}
