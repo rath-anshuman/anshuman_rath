@@ -21,7 +21,7 @@
     }
 
     #projectboxes {
-        width: 340px;
+        width: 310px;
     }
 
     #projectbox {
@@ -43,21 +43,5 @@
     #skillspannel{
         width: 90%;
     }
-    #skillboxcontainer {
-        width: 60%;
-        height: 100%;
-        flex-direction: column;
-        /* background-color: aqua; */
-        align-items: center;
-    }
-
-    #skillboxesa {
-        justify-content: start;
-        align-items: start;
-    }
-
-    #skillboxesb {
-        justify-content: start;
-        align-items: end;
-    }
+  
 }

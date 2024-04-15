@@ -17,7 +17,16 @@ body {
     height: 100%;
     width: 100%;
     background-color: #e2e2e2;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+    
 
 .section {
     width: 100%;
