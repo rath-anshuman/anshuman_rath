@@ -27,7 +27,9 @@
         width: 300px;
         height: 380px;
     }
-
+    #section4{
+        height: 170px;
+    }
     #contactmoto p{
         font-size: 12px;
     }
