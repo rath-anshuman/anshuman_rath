@@ -43,5 +43,43 @@
     #skillspannel{
         width: 90%;
     }
+    #section4{
+        height: 150px;
+    }
+    
+    .contact {
+        height: 100px;
+        /* gap: 30px; */
+        margin-top: 0px;
+    }
+
+    #contactbox {
+        width: 70%;
+        height: 200px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 20px; */
+    }
+
+    #contacttittle {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #contactmoto {
+        width: 100%;
+        /* padding: 10px; */
+    }
+    #contactmoto span{
+        /* font-size: 8px; */
+        /* padding: 10px; */
+    }
+
+    #contactbutton {
+        width: 100%;
+        padding: 10px;
+    }
+ 
   
 }

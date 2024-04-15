@@ -17,37 +17,39 @@ body {
     height: 100%;
     width: 100%;
     background-color: #e2e2e2;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 body::-webkit-scrollbar {
     display: none;
-  }
-  
+}
 
-    
+
+
 
 .section {
     width: 100%;
-    height: 55px;
+    height: 45px;
     margin-top: 0px;
 }
 
 
 .nav {
-   width: 100%;
-   height: 45px;
-   /* background-color: #39a2db; */
-   margin-top: 30px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   position: fixed;
-   z-index: 1;
+    width: 100%;
+    height: 45px;
+    /* background-color: #39a2db; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
 }
 
-#navbar{
+#navbar {
     width: 85%;
     height: 95%;
     background-color: white;
@@ -57,7 +59,7 @@ body::-webkit-scrollbar {
     align-items: center;
 }
 
-#navbar ul{
+#navbar ul {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -68,7 +70,7 @@ body::-webkit-scrollbar {
     /* gap: 8px; */
 }
 
-#navbar li{
+#navbar li {
     /* background-color: #c4beff; */
     width: 20%;
     /* height: 32px; */
@@ -80,7 +82,7 @@ body::-webkit-scrollbar {
     gap: 20px;
 }
 
-#navbar a{
+#navbar a {
     color: black;
     /* width: 80px; */
     text-decoration: none;
@@ -157,7 +159,7 @@ body::-webkit-scrollbar {
     width: 85%;
     /* background-color: antiquewhite; */
     margin-top: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,6 +171,40 @@ body::-webkit-scrollbar {
     color: #a096ff;
     font-weight: bold;
 }
+
+#introbtn {
+    width: 85%;
+    height: 40px;
+    /* background-color: #1a2486; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+#introbtn a {
+    color: white;
+    padding: 0.7em 1.7em;
+    font-size: 11px;
+    border-radius: 0.5em;
+    background: #695de8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    /* display: inline-block; */
+    text-decoration: none;
+    /* box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff; */
+}
+
+#introbtn a:hover {
+    border: 1px solid white;
+}
+
+#introbtn a :active {
+    box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}
+
 
 
 
@@ -263,7 +299,7 @@ body::-webkit-scrollbar {
     font-weight: bold;
 }
 
-.btn {
+.livebtn {
     outline: 0;
     display: inline-flex;
     align-items: center;
@@ -275,20 +311,23 @@ body::-webkit-scrollbar {
     box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
     box-sizing: border-box;
     padding: 8px;
-    color: #fff;
-    font-size: 10px;
-    font-weight: 600;
     letter-spacing: 1.2px;
     text-transform: uppercase;
     overflow: hidden;
     cursor: pointer;
 }
 
-.btn:hover {
+.livebtn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+}
+.livebtn:hover {
     opacity: .95;
 }
 
-.btn .animation {
+.livebtn .animation {
     border-radius: 100%;
     animation: ripple 0.6s linear infinite;
 }
@@ -354,38 +393,67 @@ body::-webkit-scrollbar {
     justify-content: end;
     margin-top: 15px;
     margin-bottom: 20px;
-    /* padding-left: 20px; */
+    padding: 20px;
 }
 
-.prjtmrbtn {
-    margin-right: 20px;
-    width: 170px;
-    height: 30px;
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #ffdbdb;
-    color: black;
-    font-weight: bold;
+.cssbuttons-io-button {
+    background: #ff9999;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 0.9em;
     border: none;
-    border-radius: 10px;
-    transition: all .4s;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
 }
 
-.prjtmrbtn:hover {
-    border-radius: 5px;
-    transform: translateY(-10px);
-    box-shadow: 0 7px 0 -2px #ff9999,
-        0 15px 0 -4px #39a2db,
-        0 16px 10px -3px #39a2db;
+.cssbuttons-io-button a{
+    text-decoration: none;
 }
 
-.prjtmrbtn:active {
-    transition: all 0.2s;
-    transform: translateY(-5px);
-    box-shadow: 0 2px 0 -2px #f85959,
-        0 8px 0 -4px #39a2db,
-        0 12px 10px -3px #39a2db;
+.cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+    right: 0.3em;
+    transition: all 0.3s;
 }
+
+.cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+}
+
 
 
 
@@ -402,7 +470,6 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
     padding-bottom: 130px;
-    border-bottom: #a096ff solid 1px;
     /* background-color: #39a2db; */
 }
 
@@ -597,9 +664,231 @@ body::-webkit-scrollbar {
 }
 
 
+#section4 {
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-top: 1px solid red; */
+}
 
-.about {
+
+
+.contact {
+    /* margin-bottom: 80px; */
+    height: 50px;
     width: 100%;
-    height: 100vh;
-    background-color: #dcdcdc;
+    background-color: #6E07F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactbox {
+    width: 70%;
+    height: 120px;
+    background-color: #1f1c2f;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3%;
+    border-radius: 13px;
+}
+
+#contacttittle {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blanchedalmond; */
+}
+
+#contacttittle p {
+    font-size: 25px;
+    color: #dcdcdc;
+    font-weight: 850;
+    font-family: "eurostile", sans-serif;
+}
+
+#contactmoto {
+    width: 39%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* background-color: chocolate; */
+}
+
+#contactmoto p {
+    font-size: 14px;
+    color: #dcdcdc;
+    font-weight: 500;
+}
+
+#contactbutton {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: cadetblue; */
+}
+
+#cntctbutton {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #6E07F3;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+#cntctbutton a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 12px;
+    font-weight: 00;
+    line-height: normal;
+}
+
+#cntctbutton:disabled {
+    pointer-events: none;
+}
+
+#cntctbutton:hover {
+    color: #fff;
+    background-color: #5001c0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+#cntctbutton:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: 380px;
+    background-color: #6E07F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 20px;
+}
+
+#footerlogo {
+    height: 50px;
+    width: 100%;
+    /* background-color: #f85959; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerlogo i {
+    font-size: 40px;
+    color: #e3e1ff;
+}
+
+
+#footermoto {
+    height: 100px;
+    width: 100%;
+    /* background-color: #f85959; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#footermoto p {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 600;
+    color: #b4b7e9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#footericons {
+    height: 40px;
+    width: 100%;
+    /* background-color: #f85959; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#footericons i {
+    font-size: 25px;
+    color: rgb(194, 192, 218);
+    font-weight: 500;
+}
+
+#footericons i:hover {
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+#footertittle {
+    height: 40px;
+    width: 100%;
+    /* background-color: #f85959; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footertittle span {
+    color: #a6aadd;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#footersubtittle {
+    height: 20px;
+    width: 100%;
+    /* background-color: #f85959; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footersubtittle span {
+    color: #a6aadd;
+    font-size: 12px;
+    font-weight: 700;
 }

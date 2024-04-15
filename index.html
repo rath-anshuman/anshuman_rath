@@ -11,21 +11,20 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet"
-    href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+
 </head>
 
 <body>
   <div class="nav">
-  <nav id="navbar">
-    <ul>
-      <li><a href="#section1">Home</a></li>
-      <li><a href="#section2">Projects</a></li>
-      <li><a href="#section3">Skill</a></li>
-      <li><a href="#section4">Contact</a></li>
-    </ul>
-  </nav>
-</div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#section1">Home</a></li>
+        <li><a href="#section2">Projects</a></li>
+        <li><a href="#section3">Skills</a></li>
+        <li><a href="#section4">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 
 
 
@@ -33,7 +32,7 @@
 
 
 
-  <section class="intro"  >
+  <section class="intro">
     <div id="introhead">
       <span>Web Developer | Backend Developer | Python Developer </span>
     </div>
@@ -47,15 +46,18 @@
       <img src="/data/intro/mf-avatar.svg" alt="Anshuman">
       <p>Anshuman Rath</p>
     </div>
+    <div id="introbtn">
+      <a href="">Say Hi</a>
+    </div>
   </section>
 
-+
-  
+
+
   <div class="section" id="section2"></div>
 
 
 
-  <section class="projects" >
+  <section class="projects">
     <div id="prjtabout">
       <div id="prjtaboutspan">
         <p><i class="fa-solid fa-diagram-project"></i> Projects</p>
@@ -73,7 +75,7 @@
             <div id="prjtboxhead">
               <p>Study Sync</p>
               <div>
-                <button class="btn"><i class="animation"></i>Live View<i class="animation"></i>
+                <button class="livebtn"><i class="animation"></i><a href=""><a href=""><a href=""><a href=""><a href=""><a href="">Live View</a></a></a></a></a></a><i class="animation"></i>
                 </button>
               </div>
             </div>
@@ -87,7 +89,7 @@
                 corrupti quas hic unde iure commodi!</p>
             </div>
             <div id="prjtcode">
-              <a href=""><i class="fa-brands fa-square-github" ></i></a>
+              <a href=""><i class="fa-brands fa-square-github"></i></a>
             </div>
           </div>
         </div>
@@ -100,7 +102,7 @@
             <div id="prjtboxhead">
               <p>Study Sync</p>
               <div>
-                <button class="btn"><i class="animation"></i>Live View<i class="animation"></i>
+                <button class="livebtn"><i class="animation"></i><a href="">Live View</a><i class="animation"></i>
                 </button>
               </div>
             </div>
@@ -126,7 +128,7 @@
             <div id="prjtboxhead">
               <p>Study Sync</p>
               <div>
-                <button class="btn"><i class="animation"></i>Live View<i class="animation"></i>
+                <button class="livebtn"><i class="animation"></i><a href="">Live View</a><i class="animation"></i>
                 </button>
               </div>
             </div>
@@ -152,7 +154,7 @@
             <div id="prjtboxhead">
               <p>Study Sync</p>
               <div>
-                <button class="btn"><i class="animation"></i>Live View<i class="animation"></i>
+                <button class="livebtn"><i class="animation"></i><a href="">Live View</a><i class="animation"></i>
                 </button>
               </div>
             </div>
@@ -177,7 +179,7 @@
             <div id="prjtboxhead">
               <p>Study Sync</p>
               <div>
-                <button class="btn"><i class="animation"></i>Live View<i class="animation"></i>
+                <button class="livebtn"><i class="animation"></i><a href="">Live View</a><i class="animation"></i>
                 </button>
               </div>
             </div>
@@ -199,7 +201,23 @@
     </div>
 
     <div id="prjtmore">
-      <button class="prjtmrbtn">More...</button>
+      <button class="cssbuttons-io-button">
+        More...
+        <div class="icon">
+          <a href=""><svg
+            height="24"
+            width="24"
+            viewBox="0 0 24 24"
+          >
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path
+              d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+              fill="currentColor"
+            ></path>
+          </svg></a>
+        </div>
+      </button>
+      
     </div>
   </section>
 
@@ -228,7 +246,7 @@
       <div id="skillboxcontainer">
 
         <div id="skillboxesa">
-          
+
           <div id="skillbox1">
             <div id="skilldetaila">
               <i class="fa-brands fa-python"></i>
@@ -238,7 +256,7 @@
               <img src="/data/skills/python.gif" alt="">
             </div>
           </div>
-          
+
           <div id="skillbox2">
             <div id="skilldetailb">
               <i class="fa-brands fa-chrome"></i>
@@ -249,7 +267,7 @@
               <img src="/data/skills/web dev.gif" alt="">
             </div>
           </div>
-        
+
         </div>
         <div id="skillboxesb">
           <div id="skillbox4">
@@ -275,27 +293,57 @@
         </div>
       </div>
     </div>
-
-
   </section>
 
 
-
-
-  
   <div class="section" id="section4"></div>
 
 
-
-
-  <section class="about" >
-
+  <section class="contact">
+    <div id="contactbox">
+      <div id="contacttittle">
+        <p>Start a Project</p>
+      </div>
+      <div id="contactmoto">
+        <p>Want to team up !</p>
+        <p>Let's engineer with colaboration.. </p>
+      </div>
+      <div id="contactbutton">
+        <button id="cntctbutton"><a href="">Contact Me</a></button>
+      </div>
+    </div>
   </section>
 
-  
-<script src="/js/index.js">
-  
-</script>
+
+
+  <section class="footer">
+
+    <div id="footerlogo">
+      <i class="fa-solid fa-code"></i>
+    </div>
+    <div id="footermoto">
+      <p>Dreaming Learning Leveling Up</p>
+      <p>at each step</p>
+    </div>
+    <div id="footericons">
+      <a href="https://github.com/rath-anshuman" class="socialicon"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/anshuman-rath/" class="socialicon"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/anish_anshuman/" class="socialicon"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://wa.me/7683911315" class="socialicon"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="mailto:anshumanrath030@gmail.com" class="socialicon"><i class="fa-regular fa-envelope"></i></a>
+    </div>
+    <div id="footertittle">
+      <span>handcrafted by anshuman rath</span>
+    </div>
+    <div id="footersubtittle">
+      <span>copyright @ anshumanrath.in</span>
+    </div>
+  </section>
+
+
+  <script src="/js/index.js">
+
+  </script>
 </body>
 
-</html>|
+</html>
