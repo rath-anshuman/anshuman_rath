@@ -87,7 +87,7 @@ body::-webkit-scrollbar {
     /* width: 80px; */
     text-decoration: none;
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 550;
     /* background-color: #646677; */
     padding: 5px 8px;
     border-radius: 15px;
@@ -100,7 +100,7 @@ body::-webkit-scrollbar {
 #navbar a.active {
     width: 100%;
     background-color: #c4beff;
-    font-weight: 600;
+    font-weight: 650;
 }
 
 
@@ -764,9 +764,6 @@ body::-webkit-scrollbar {
     -webkit-user-select: none;
     touch-action: manipulation;
     will-change: transform;
-}
-#cntctbutton a{
-    
 }
 
 #cntctbutton:disabled {
