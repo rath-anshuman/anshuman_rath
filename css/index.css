@@ -471,7 +471,7 @@ body::-webkit-scrollbar {
     justify-content: center;
     padding-bottom: 130px;
     /* background-color: #39a2db; */
-    border-bottom: 100px solid rgb(183, 183, 220);
+    border-bottom: 100px;
 }
 
 #skillsabout {
