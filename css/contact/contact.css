@@ -94,14 +94,14 @@ nav {
 }
 
 .title {
-  font-size: 28px;
+  font-size: 22px;
   color: royalblue;
   font-weight: 600;
   letter-spacing: -1px;
   position: relative;
   display: flex;
   align-items: center;
-  padding-left: 30px;
+  padding-left: 20px;
   margin-bottom: 20px;
 }
 
@@ -114,17 +114,18 @@ nav {
   border-radius: 50%;
   left: 0px;
   background-color: royalblue;
+  margin-left: 5px;
 }
 
 .title::before {
-  width: 18px;
-  height: 18px;
+  width:  10px;
+  height: 10px;
   background-color: royalblue;
 }
 
 .title::after {
-  width: 18px;
-  height: 18px;
+  width:  10px;
+  height: 10px;
   animation: pulse 1s linear infinite;
 }
 
