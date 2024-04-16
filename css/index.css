@@ -18,9 +18,7 @@ body {
     width: 100%;
     background-color: #e2e2e2;
     -ms-overflow-style: none;
-    /* IE and Edge */
     scrollbar-width: none;
-    /* Firefox */
 }
 
 body::-webkit-scrollbar {
@@ -32,7 +30,7 @@ body::-webkit-scrollbar {
 
 .section {
     width: 100%;
-    height: 45px;
+    height: 60px;
     margin-top: 0px;
 }
 
@@ -184,21 +182,27 @@ body::-webkit-scrollbar {
 }
 
 #introbtn a {
-    color: white;
+    color: black;
     padding: 0.7em 1.7em;
     font-size: 11px;
     border-radius: 0.5em;
-    background: #695de8;
+    
     cursor: pointer;
-    border: 1px solid #e8e8e8;
+    border: 1px solid #2922f7;
     transition: all 0.3s;
     /* display: inline-block; */
     text-decoration: none;
+    border: 1px solid #2922f7;
+    font-weight: 500;
+    background-color: #695de8;
+    color: white;
     /* box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff; */
 }
 
 #introbtn a:hover {
-    border: 1px solid white;
+    border: 1px solid #2922f7;
+    background: #ffffff;
+    color: black;
 }
 
 #introbtn a :active {
@@ -816,7 +820,7 @@ body::-webkit-scrollbar {
 
 #footerlogo i {
     font-size: 40px;
-    color: #e3e1ff;
+    color: #ffffff;
 }
 
 
@@ -835,7 +839,7 @@ body::-webkit-scrollbar {
     font-size: 22px;
     font-style: italic;
     font-weight: 600;
-    color: #b4b7e9;
+    color: #e2e3f3;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -851,7 +855,7 @@ body::-webkit-scrollbar {
 
 #footericons i {
     font-size: 25px;
-    color: rgb(194, 192, 218);
+    color: rgb(237, 235, 249);
     font-weight: 500;
 }
 
@@ -871,7 +875,7 @@ body::-webkit-scrollbar {
 }
 
 #footertittle span {
-    color: #a6aadd;
+    color: #e5e5f6;
     font-size: 15px;
     font-weight: 600;
 }
@@ -886,7 +890,7 @@ body::-webkit-scrollbar {
 }
 
 #footersubtittle span {
-    color: #a6aadd;
+    color: #d7d9f7;
     font-size: 12px;
     font-weight: 700;
 }

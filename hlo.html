@@ -6,14 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Say hi ...@anshuman-rath</title>
     <link rel="stylesheet" href="/css/hlo/hlo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <nav>
+        <div id="navbtns">
+            <!-- <a href="">Start a Project?</a> -->
+            <a href="index.html"><i class="fa-solid fa-xmark"></i></a>
+        </div>
         <div id="navimg">
             <img src="/data/intro/mf-avatar.svg" alt="Anshuman Rath">
         </div>
     </nav>
+
+    <div id="msg">
+        <span>How can I help you today?</span>
+    </div>
+
+    <div id="hiform">
+        <div class="form-container">
+            <form class="form">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input required="" name="email" id="email" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="textarea">Message?</label>
+                    <textarea required="" cols="50" rows="10" id="textarea" name="textarea"></textarea>
+                </div>
+                <button type="submit" class="form-submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
