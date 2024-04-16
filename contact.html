@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact..@anshuman-rath</title>
     <link rel="stylesheet" href="/css/contact/contact.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -20,39 +24,31 @@
     </nav>
 
     <div id="msg">
-        <span>How can I help you today?</span>
+        <span>Let's create some magic togeather...</span>
     </div>
     <div id="hiform">
         <form class="form">
             <p class="title">Available </p>
-            <!-- <p class="message">Signup now and get full access to our app. </p> -->
-                <div class="flex">
-                <label>
-                    <input required="" placeholder="" type="text" class="input">
-                    <span>Firstname</span>
-                </label>
-        
-                <label>
-                    <input required="" placeholder="" type="text" class="input">
-                    <span>Lastname</span>
-                </label>
-            </div>  
-                    
             <label>
-                <input required="" placeholder="" type="email" class="input">
-                <span>Email</span>
-            </label> 
-                
-            <label>
-                <input required="" placeholder="" type="password" class="input">
-                <span>Password</span>
+                <input required="" placeholder="Name" type="text" class="input">
+                <!-- <span>Name</span> -->
             </label>
             <label>
-                <input required="" placeholder="" type="password" class="input">
-                <span>Confirm password</span>
+                <input required="" placeholder="Email" type="email" class="input">
+            </label>
+            <label>
+                <select required="" class="input">
+                    <option value="" disabled selected>Project Type</option>
+                    <option value="web_app">Web App</option>
+                    <option value="web_backend">Web Backend</option>
+                    <option value="core_python">Core Python</option>
+                    <option value="other">Other</option>
+                </select>
+            </label>
+            <label>
+                <textarea required="" placeholder="Message" id="msginput" class="input"></textarea>
             </label>
             <button class="submit">Submit</button>
-            <p class="signin">Already have an acount ? <a href="#">Signin</a> </p>
         </form>
     </div>
 </body>
