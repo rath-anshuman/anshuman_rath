@@ -665,7 +665,7 @@ body::-webkit-scrollbar {
 
 
 #section4 {
-    height: 270px;
+    height: 370px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -678,7 +678,7 @@ body::-webkit-scrollbar {
     /* margin-bottom: 80px; */
     height: 50px;
     width: 100%;
-    background-color: #6E07F3;
+    background-color: #695de8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -686,7 +686,7 @@ body::-webkit-scrollbar {
 
 #contactbox {
     width: 70%;
-    height: 120px;
+    height: 140px;
     background-color: #1f1c2f;
     display: flex;
     align-items: center;
@@ -743,7 +743,12 @@ body::-webkit-scrollbar {
     border: 0.125em solid #6E07F3;
     border-radius: 0.9375em;
     box-sizing: border-box;
-    
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 12px;
+    font-weight: 00;
+    line-height: normal;
     cursor: pointer;
     display: inline-block;
     margin: 0;
@@ -760,12 +765,7 @@ body::-webkit-scrollbar {
     will-change: transform;
 }
 #cntctbutton a{
-    text-decoration: none;
-    color: #ffffff;
-    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 12px;
-    font-weight: 00;
-    line-height: normal;
+    
 }
 
 #cntctbutton:disabled {
@@ -797,8 +797,8 @@ body::-webkit-scrollbar {
 
 .footer {
     width: 100%;
-    height: 380px;
-    background-color: #6E07F3;
+    height: 420px;
+    background-color: #695de8;
     display: flex;
     flex-direction: column;
     align-items: center;
