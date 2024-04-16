@@ -114,6 +114,7 @@ body::-webkit-scrollbar {
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    margin-top: 20px;
     /* gap: 10px; */
 }
 
@@ -238,7 +239,7 @@ body::-webkit-scrollbar {
 #prjtaboutspan p,
 #prjtaboutspan i {
     font-size: 25px;
-    color: #f9cece;
+    color: #f8bcbc;
     font-weight: bolder;
     margin-bottom: 15px;
 }
@@ -401,7 +402,7 @@ body::-webkit-scrollbar {
 }
 
 .cssbuttons-io-button {
-    background: #f4bdbd;
+    background: #f79191;
     color: white;
     font-family: inherit;
     padding: 0.35em;
