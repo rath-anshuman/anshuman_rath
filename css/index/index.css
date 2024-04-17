@@ -221,6 +221,7 @@ body::-webkit-scrollbar {
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    padding-bottom: 45px;
 }
 
 #prjtabout {
@@ -270,8 +271,8 @@ body::-webkit-scrollbar {
 
 #projectbox {
     width: 300px;
-    height: 370px;
-    background-color: rgb(255, 255, 255);
+    height: 360px;
+    background-color: rgb(246, 247, 250);
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -301,7 +302,7 @@ body::-webkit-scrollbar {
 
 #prjtboxhead p {
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .livebtn {
@@ -350,17 +351,20 @@ body::-webkit-scrollbar {
 
 #prjtboximg {
     margin-top: 10px;
-    height: 140px;
+    height: 134px;
     width: 92%;
     background-color: burlywood;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: rgb(145, 135, 222) solid 3.5px;
+    border-radius: 10px;
 }
 
 #prjtboximg img {
-    height: 140px;
+    height: 100%;
     width: 100%;
+    border-radius: 10px;
 }
 
 #prjtboxdescription {
@@ -389,13 +393,15 @@ body::-webkit-scrollbar {
     height: 35px;
     /* background-color: antiquewhite; */
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 7px;
+    margin-top: 8px;
 }
 #prjtcode a i{
     /* margin-top: 5px; */
-    font-size: 30px;
+    font-size: 31px;
+    color: #131c5f;
+    /* background-color: #110f23; */
 }
 
 #prjtmore {
@@ -411,13 +417,13 @@ body::-webkit-scrollbar {
 }
 
 .cssbuttons-io-button {
-    background: #f79191;
-    color: white;
+    background: #f8bcbc;
+    color: black;
     font-family: inherit;
     padding: 0.35em;
     padding-left: 1.2em;
-    font-size: 13px;
-    font-weight: 500;
+    font-size: 10px;
+    font-weight: 800;
     border-radius: 0.9em;
     border: none;
     letter-spacing: 0.05em;
